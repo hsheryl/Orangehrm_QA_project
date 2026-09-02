@@ -58,6 +58,10 @@ The tested candidate-creation paths were generally reliable. Required-field vali
 
 However, the feature should not be considered fully validated. **Date-format consistency and keyboard accessibility require attention, and candidate retrieval should be retested in a controlled environment.**
 
+## Full Case Study
+
+[Read the full OrangeHRM QA case study](case-study.md)
+
 ## QA Skills Demonstrated
 
 * Requirements analysis
