@@ -75,15 +75,26 @@ However, the feature should not be considered fully validated. **Date-format con
 * Risk-based quality assessment
 * Distinguishing **Pass, Fail, and Blocked** results based on evidence
 
-### Project Artifacts
+## Project Artifacts
 
-* Requirements analysis
-* Test plan
-* Nine scripted test cases
-* Execution results and evidence
-* Exploratory test session
-* OQA-15 defect report
-* OQA-18 defect report
-* Final quality assessment
+The project artifacts are organized in the same order as the QA workflow so the testing approach can be followed from requirements through final assessment.
+
+| Artifact                                                                                            | What It Shows                                                                                         |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [Requirements Analysis](requirements/candidate-creation-requirements.md)                            | Source requirements, documentation-to-demo discrepancies, testable requirements, and traceability     |
+| [Test Plan](test-plan/recruitment-candidate-test-plan.md)                                           | Scope, strategy, test types, environment risks, entry/exit criteria, and result classifications       |
+| [Test Cases & Execution Results](test-cases/candidate-test-cases.md)                                | Nine scripted tests with objectives, procedures, expected results, actual results, and final statuses |
+| [Exploratory Testing Session](exploratory-testing/exploratory-session.md)                           | Time-boxed investigation of keyboard accessibility, navigation, and date behavior                     |
+| [OQA-15 — Date of Application Format](defects/OQA-15-date-of-application-format.md)                 | Defect report for inconsistent date formatting/interpretation                                         |
+| [OQA-18 — Keyboard Navigation & Accessibility](defects/OQA-18-keyboard-navigation-accessibility.md) | Defect report for keyboard navigation and focus problems                                              |
+| [Final Quality Assessment](final-assessment/quality-assessment.md)                                  | Evidence-based assessment of tested quality, residual risk, and recommended follow-up                 |
+| [Full Portfolio Case Study](case-study.md)                                                          | Narrative overview of the complete QA cycle and the judgment behind the results                       |
+
+### Execution Result
+
+**8 Pass · 1 Blocked · 0 confirmed scripted Failures**
+
+The Blocked result reflects an environment limitation during candidate retrieval, not a confirmed product failure. Defects found through exploratory and incidental testing were documented separately from the scripted execution count.
+
 * Full case study
 
